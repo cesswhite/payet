@@ -20,7 +20,7 @@ export const onDoneService = (service: Service) => {
 };
 
 export const total = computed(() => {
-  return services.value.reduce((total, service) => {
+  return getUndoneServices.value.reduce((total, service) => {
     const quantityValue =
       typeof service.quantity === "string"
         ? parseFloat(service.quantity)
