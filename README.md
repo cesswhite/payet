@@ -1,4 +1,6 @@
-# Nuxt UI Minimal Starter
+# Payet | Administrador de finanzas
+
+Plataforma minimalista para la administración y registro de pagos personales. Rápida y fácil de usar, funciona de manera local. Permite agregar y eliminar fácilmente transacciones. No pierdas de vista tus gastos y visualiza en qué estás invirtiendo tu dinero.
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
 
