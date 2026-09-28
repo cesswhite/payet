@@ -4,74 +4,28 @@ Plataforma minimalista para la administración y registro de pagos personales. R
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
 
-## Setup
+## Desarrollo
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+El repositorio conserva `yarn.lock` de Yarn Classic y declara Node `22.x`. Usa ese gestor para mantener la misma resolución de dependencias.
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+yarn install --frozen-lockfile
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+El servidor de desarrollo usa `http://localhost:3000`.
 
-Build the application for production:
+## Producción
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
 yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
 yarn preview
-
-# bun
-bun run preview
 ```
+
+`yarn generate` también existe para generación estática; revisa las necesidades del middleware antes de cambiar el modo de despliegue. No se declaran scripts de test, lint o typecheck.
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Guía para agentes y colaboradores
+
+Lee [AGENTS.md](AGENTS.md) y [docs/REPOSITORY_GUIDE.md](docs/REPOSITORY_GUIDE.md) para ubicar funciones reales, flujos, límites y comandos verificados.
