@@ -1,0 +1,14 @@
+# Payet
+
+> Herramienta para registrar pagos personales de forma local en el navegador.
+
+Permite agregar un pago con nombre, cantidad y fecha, marcarlo como pagado o pendiente, quitar registros y consultar el total pendiente. El sitio público tiene una sola página.
+
+## Página pública
+
+- [Payet](https://payet.ecostudios.dev/)
+
+## Referencias
+
+- [Sitemap](https://payet.ecostudios.dev/sitemap.xml)
+- [Publicador: Eco Development Studios](https://www.ecostudios.dev/)
