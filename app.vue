@@ -18,12 +18,3 @@
     <UtilsServicesDone />
   </UContainer>
 </template>
-
-<script setup lang="ts">
-useHead({
-  title: 'Payet | Administrador de finanzas',
-  meta: [
-    { name: 'description', content: 'Administrador de finanzas' }
-  ]
-})
-</script>
