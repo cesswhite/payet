@@ -28,6 +28,8 @@
 
 <script setup lang="ts">
 
+const { getUndoneServices, onDoneService, removeService, total } = useServices()
+
 const columns = [{
     key: 'id',
     label: 'ID'

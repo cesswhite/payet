@@ -26,6 +26,8 @@
 
 <script setup lang="ts">
 
+const { getDoneServices, onDoneService } = useServices()
+
 const columns = [{
     key: 'id',
     label: 'ID'
