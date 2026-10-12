@@ -1,6 +1,6 @@
 # Guía para agentes — Payet
 
-Payet es una aplicación de una sola página para registrar pagos personales en el navegador. Usa Nuxt 3, Nuxt UI 2 y renderizado del cliente (`ssr: false`). No procesa pagos ni conecta con bancos.
+Payet es una aplicación de una sola página para registrar pagos personales en el navegador. Usa Nuxt 3 y Nuxt UI 2 con renderizado inicial en servidor; los pagos locales se restauran en el navegador después de hidratar la interfaz. No procesa pagos ni conecta con bancos.
 
 - Empieza por [docs/REPOSITORY_GUIDE.md](docs/REPOSITORY_GUIDE.md); después lee sólo los archivos necesarios y sigue sus importaciones y llamadas de forma progresiva.
 - Responde en el idioma del usuario y cita rutas y símbolos concretos. Distingue evidencia del código, inferencias y comportamiento pendiente de comprobar en ejecución.

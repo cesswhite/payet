@@ -23,6 +23,8 @@
 import type { FormError } from '#ui/types'
 import type { Service } from '~/types'
 
+const { addService } = useServices()
+
 const state = reactive({
     name: '',
     quantity: 0,
